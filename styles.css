@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-color: #2a0a4a; /* Dark Purple */
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+}
+
+.container {
+  max-width: 600px;
+  background: #4b0082; /* Medium Purple */
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(255, 105, 180, 0.5);
+  margin: auto;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #ff69b4; /* Pink */
+}
+
+.input-section {
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  width: 70%;
+  border: 1px solid #ff69b4; /* Pink */
+  border-radius: 8px;
+  background-color: #3a005f; /* Darker Purple */
+  color: #fff;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  background: #ff69b4; /* Pink */
+  color: white;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #ff1493; /* Deep Pink */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background: #5a189a; /* Lighter Purple */
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 12px;
+  border: 1px solid #ff69b4;
+  color: #fff;
+}
+
+th {
+  background-color: #6a0dad; /* Darker Purple */
+}
+
+.action-btn {
+  cursor: pointer;
+  padding: 6px 12px;
+  margin: 2px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.present {
+  background-color: #8a2be2; /* Blue-Violet */
+  color: white;
+}
+
+.absent {
+  background-color: #d63384; /* Pinkish Red */
+  color: white;
+}
+
+.delete {
+  background-color: #6c757d; /* Grey */
+  color: white;
+}
+
+.action-btn:hover {
+  opacity: 0.8;
+}
